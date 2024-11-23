@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Cumpleaños!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Lilita+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section id="principal">
+    <div class="container">
+      
+      <div class="felicidades">
+        <h1 class="animated-text">¡Feliz Cumpleaños Hermosa! 🎉🎂</h1>
+      </div>
+
+      <div class="sec-prin">
+
+        <div class="half">
+          <div class="birthday-container">
+            <div class="card">
+              <h1>🎉 ¡Feliz Cumpleaños! 🎂</h1>
+              <p>Muchas Felicidadades Amor, hoy en tu dia muy especial. 🥰</p>
+              <p>Oajala te hayas y te la sigas pasando muy bonito y te deseo lo mejor, besitos. 💕</p>
+              <button onclick="alert('¡Ya te quiero ver Hermosa! 😊')">💌 Mensajito</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="half">
+          <div class="reproductor">
+            <button id="playPause" class="btn">Play</button>
+            <button id="stop" class="btn">Stop</button>
+            <imput id="timeline" class="timeline" type="range" min="0" max="100" value="0">
+          </div>
+      
+          <audio id="audio">
+              <source src="media/VIDEOCLUB - Amour plastique.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        
+        <div class="half">
+          <div class="carrusel-container">
+            <div class="carousel">
+              <div class="slides">
+                <img src="media/1.jpg" alt="">
+                <img src="media/2.jpg" alt="">
+                <img src="media/3.jpg" alt="">
+                <img src="media/4.jpg" alt="">
+                <img src="media/5.jpg" alt="">
+                <img src="media/6.jpg" alt="">
+                <img src="media/7.jpg" alt="">
+                <img src="media/8.jpg" alt="">
+                <img src="media/9.jpg" alt="">
+                <img src="media/10.jpg" alt="">
+                <img src="media/11.jpg" alt="">
+                <img src="media/12.jpg" alt="">
+                <img src="media/13.jpg" alt="">
+                <img src="media/14.jpg" alt="">
+                <img src="media/15.jpg" alt="">
+                <img src="media/16.jpg" alt="">
+                <img src="media/17.jpg" alt="">
+                <img src="media/18.jpg" alt="">
+                <img src="media/19.jpg" alt="">
+                <img src="media/20.jpg" alt="">
+                <img src="media/21.jpg" alt="">
+                <img src="media/22.jpg" alt="">
+                <img src="media/23.jpg" alt="">
+                <img src="media/24.jpg" alt="">
+                <img src="media/25.jpg" alt="">
+                <img src="media/26.jpg" alt="">
+                <img src="media/27.jpg" alt="">
+                <img src="media/28.jpg" alt="">
+                <img src="media/28.webp" alt="">
+                <img src="media/29.jpg" alt="">
+                <img src="media/30.jpg" alt="">
+                <img src="media/31.jpg" alt="">
+                <img src="media/32.jpg" alt="">
+                <img src="media/33.jpg" alt="">
+                <img src="media/34.jpg" alt="">
+                <img src="media/35.jpg" alt="">
+                <img src="media/36.webp" alt="">
+                <img src="media/38.jpg" alt="">
+                <img src="media/39.jpg" alt="">
+                <img src="media/40.jpg" alt="">
+                <img src="media/41.jpg" alt="">
+                <img src="media/42.jpg" alt="">
+                <img src="media/43.jpg" alt="">
+                <img src="media/44.jpg" alt="">
+                <img src="media/45.jpg" alt="">
+                <img src="media/46.jpg" alt="">
+                <img src="media/47.jpg" alt="">
+                <img src="media/48.jpg" alt="">
+                <img src="media/49.jpg" alt="">
+                <img src="media/50.HEIC" alt="">
+                <img src="media/51.jpg" alt="">
+                <img src="media/52.jpg" alt="">
+                <img src="media/53.jpg" alt="">
+                <img src="media/54.jpg" alt="">
+                <img src="media/55.jpg" alt="">
+                <img src="media/56.jpg" alt="">
+                <img src="media/57.jpg" alt="">
+                <img src="media/58.jpg" alt="">
+                <img src="media/59.jpg" alt="">
+                <img src="media/60.jpg" alt="">
+                <img src="media/61.jpg" alt="">
+                <img src="media/62.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="boton">
+        <button class="prin" id="openSurvey">👉🏻 Puchale Aqui 👈🏻</button>
+
+          <div class="floating-survey" id="surveyModal">
+            <div class="survey-container">
+              <span class="close" id="closeSurvey">&times;</span> 
+              <h2>¿Ya decidiste a donde quieres ir?💕</h2>
+              
+              <div class="imgr">
+                <img src="media/marivela.jpeg" alt="">
+              <img src="media/dolcevita.jpg" alt="">
+              </div>
+              
+              <div class="options">
+                <button class="option-btn" data-answer="MARIVELA">MARIVELA</button>
+                <button class="option-btn" data-answer="DOLCE VITA">DOLCE VITA</button>
+              </div>
+
+              <p id="surveyStatus"></p> 
+
+              <button class="sec" id="nextSurveyBtn">Siguiente</button>
+              
+              <p id="surveyStatus"></p>  
+            </div>
+          </div>
+          
+          <div class="floating-survey" id="surveyModal2">
+            <div class="survey-container">
+              <span class="close" id="closeSurvey2">&times;</span> 
+              <h2>¿Y que peli ver?🍿🥤</h2>
+              
+              <div class="imgr">
+                <img src="media/venom.jpg" alt="">
+                <img src="media/terri.jpeg" alt="">
+              </div>
+              
+              <div class="options">
+                <button class="option-btn2" data-answer="VENOM">VENOM</button>
+                <button class="option-btn2" data-answer="TERRIFIER">TERRIFIER</button>
+              </div>
+              
+              <p id="surveyStatus2"></p>
+
+              <button class="sec" id="cerrarBtn">Cerrar</button>
+            </div>
+          </div>
+
+          <button class="prin" id="showEnvelope">🫶🏻 Tu Carta 📩</button>
+
+            <div class="overlay" id="overlay">
+              <div class="envelope">
+                <div class="flap" id="flap"></div>
+                <div class="letter" id="letter">
+                  <h2>🎉¡Hola Pequeñisima!🎊🦒</h2>
+                  <p><br>Solo queria decirte que felices 21, gorditaaaa!🥰🎉</p>
+                  <p>Sabes que no se escribir mucho asi que, quiero que sigas cumpliendo muchos añotes mas y que los sigas compartiendo conmigo para siempre, Okeyss <br><br>TE AMO💓😘 Bais. <br><br><br>Espero te guste tu "Carta".</p>
+
+                  <button class="sec" id="cierre">Cerrar</button>
+                </div>
+              </div>
+            </div>
+
+          <button class="prin" id="openModal">🫣Te Regalo Algo🎁</button>
+
+          <!-- Ventana flotante -->
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span id="closeModal" class="close2">&times;</span>
+              <svg width="500" height="500" class="draw">
+                <!-- Capa inferior -->
+                <rect x="50" y="300" width="400" height="100" rx="20" ry="20" fill="#ffcc99" stroke="#d28e5d" stroke-width="4" />
+                <!-- Glaseado de la capa inferior -->
+                <path d="M50,300 Q100,280 150,300 Q200,280 250,300 Q300,280 350,300 Q400,280 450,300" fill="#ff99cc" stroke="#d46782" stroke-width="4" />
+        
+                <!-- Capa media -->
+                <rect x="100" y="220" width="300" height="80" rx="20" ry="20" fill="#ffe5b4" stroke="#d2a574" stroke-width="4" />
+                <!-- Glaseado de la capa media -->
+                <path d="M100,220 Q150,200 200,220 Q250,200 300,220 Q350,200 400,220" fill="#ffb6c1" stroke="#d26c8e" stroke-width="4" />
+        
+                <!-- Capa superior -->
+                <rect x="150" y="150" width="200" height="70" rx="20" ry="20" fill="#ffdab9" stroke="#d2a17c" stroke-width="4" />
+                <!-- Glaseado de la capa superior -->
+                <path d="M150,150 Q200,130 250,150 Q300,130 350,150" fill="#ffb6c1" stroke="#d26c8e" stroke-width="4" />
+        
+                <!-- Decoraciones: círculos -->
+                <circle cx="120" cy="320" r="10" fill="#ff0000" stroke="#800000" stroke-width="2" />
+                <circle cx="380" cy="320" r="10" fill="#ff0000" stroke="#800000" stroke-width="2" />
+                <circle cx="250" cy="250" r="8" fill="#ff0000" stroke="#800000" stroke-width="2" />
+        
+                <!-- Velas -->
+                <rect x="200" y="90" width="10" height="60" fill="#ffff99" stroke="#999900" stroke-width="2" />
+                <rect x="250" y="90" width="10" height="60" fill="#ffff99" stroke="#999900" stroke-width="2" />
+                <rect x="300" y="90" width="10" height="60" fill="#ffff99" stroke="#999900" stroke-width="2" />
+        
+                <!-- Llamas de las velas -->
+                <path d="M205,80 Q210,60 215,80 Z" fill="#ff6600" />
+                <path d="M255,80 Q260,60 265,80 Z" fill="#ff6600" />
+                <path d="M305,80 Q310,60 315,80 Z" fill="#ff6600" />
+              </svg>
+              <h2>Toma Te regalo un Pastelito😘🍰</h2>
+            </div>
+          </div>
+      </div>
+    </div>  
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+<script>
+  const openSurvey = document.getElementById('openSurvey');
+  const surveyModal = document.getElementById('surveyModal');
+  const surveyModal2 = document.getElementById('surveyModal2');
+  const buttons = document.querySelectorAll('.option-btn');
+  const buttonss = document.querySelectorAll('.option-btn2');
+  const surveyStatus = document.getElementById('surveyStatus');
+  const nextSurveyBtn = document.getElementById("nextSurveyBtn");
+  const cerrarBtn = document.getElementById("cerrarBtn");
+
+  // Abrir la encuesta
+  openSurvey.addEventListener('click', () => {
+    surveyModal.style.display = 'flex';
+  });
+
+  // Cerrar la encuesta
+  closeSurvey.addEventListener('click', () => {
+    surveyModal.style.display = 'none';
+  });
+
+  nextSurveyBtn.addEventListener('click', () => {
+    surveyModal.style.display = 'none';
+    surveyModal2.style.display = 'flex';
+  });
+
+  closeSurvey2.addEventListener('click', () => {
+    surveyModal2.style.display = 'none';
+  });
+
+  cerrarBtn.addEventListener('click', () => {
+    surveyModal2.style.display = 'none';
+  });
+
+  // Enviar la respuesta al servidor
+  buttons.forEach(button => {
+    button.addEventListener('click', async (event) => {
+      const answer = event.target.dataset.answer;
+
+      try {
+        const response = await fetch('/submit-survey', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ respuesta: answer })
+        });
+
+        if (response.ok) {
+          surveyStatus.textContent = '¡Vale amorcitoo jsjs!';
+        } else {
+          surveyStatus.textContent = 'Hubo un error. Intenta de nuevo.';
+        }
+      } catch (error) {
+        surveyStatus.textContent = 'No se pudo enviar la respuesta.';
+      }
+    });
+  });
+
+  buttonss.forEach(button => {
+    button.addEventListener('click', async (event) => {
+      const answer = event.target.dataset.answer;
+
+      try {
+        const response = await fetch('/submit-survey', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ respuesta: answer })
+        });
+
+        if (response.ok) {
+          surveyStatus2.textContent = '¡Okeysss!';
+        } else {
+          surveyStatus2.textContent = 'Hubo un error. Intenta de nuevo.';
+        }
+      } catch (error) {
+        surveyStatus2.textContent = 'No se pudo enviar la respuesta.';
+      }
+    });
+  });
+
+  const audio = document.getElementById('audio');
+        const playPauseBtn = document.getElementById('playPause');
+        const stopBtn = document.getElementById('stop');
+        const timeline = document.getElementById('timeline');
+
+        // Play/Pause
+        playPauseBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playPauseBtn.textContent = 'Pausa';
+            } else {
+                audio.pause();
+                playPauseBtn.textContent = 'Play';
+            }
+        });
+
+        // Stop
+        stopBtn.addEventListener('click', () => {
+            audio.pause();
+            audio.currentTime = 0;
+            playPauseBtn.textContent = 'Play';
+        });
+
+        // Timeline
+        audio.addEventListener('timeupdate', () => {
+            timeline.value = (audio.currentTime / audio.duration) * 100;
+        });
+
+        timeline.addEventListener('input', () => {
+            audio.currentTime = (timeline.value / 100) * audio.duration;
+        });
+</script>
+</html>
+
+
+
